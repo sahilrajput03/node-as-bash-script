@@ -1,5 +1,11 @@
-# Read @ https://stackoverflow.com/questions/33509816/what-exactly-does-usr-bin-env-node-do-at-the-beginning-of-node-files
+# What does this mean in first line of some files ?
 
-Execute the script directly via `./testnodescript` command in the shell direclty to execute node program, yikes!
+```
+#!/usr/bin/env node
+```
 
-* works in windows's bash/fish environments too. :)
+## Read @ https://stackoverflow.com/questions/33509816/what-exactly-does-usr-bin-env-node-do-at-the-beginning-of-node-files
+
+Execute the script directly via `./testnodescript.js` command in the shell direclty to execute node program, yikes!
+
+- works in windows's bash/fish environments too. :)
